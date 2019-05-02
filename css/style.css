@@ -1,0 +1,97 @@
+@font-face {
+  font-family: "Lato-Light";
+  src: url("../fonts/lato/Lato-Light.ttf");
+}
+
+*{
+  font-family: "Lato-Light";
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-color: rgb(34, 173, 251);
+  background-image: url("../images/background.jpg");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+nav{
+  text-align: center;
+}
+nav ul li{
+  font-size: 30px;
+  display: inline-block;
+  color: white;
+  margin: 20px 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+nav ul li.active{
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+}
+.container{
+  background-color: red;
+  height: 700px;
+}
+.slider{
+  background-color: white;
+  background-image: url("../images/1.jpg");
+  background-size: cover;
+  width: 800px;
+  height: 450px;
+  position: fixed;
+  left: calc(50% - 400px);
+  top: 150px;
+  border-radius: 10px;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+.slider .options{
+  margin-left: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  float: left;
+}
+.slider .options .dot{
+  display: block;
+  background-color: white;
+  height: 7px;
+  width: 7px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+.slider .share{
+  height: 15px;
+  width: 15px;
+  background-color: white;
+  margin-right: 80px;
+  margin-left: auto;
+  margin-top: 20px;
+  float: right;
+  cursor: pointer;
+}
+.slider .like{
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    margin-right: 40px;
+    margin-left: auto;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.slider .username{
+  display: inline-block;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 330px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.slider .line{
+  display: inline-block;
+  background-color: white;
+  margin-left: 10px;
+  width: 600px;
+  height: 2px;
+}
