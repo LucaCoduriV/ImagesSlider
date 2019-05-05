@@ -31,20 +31,30 @@ nav ul li.active{
   border-bottom-width: 2px;
 }
 .container{
-  background-color: none;
-  height: 700px;
+  background-color: green;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  height: auto;
+  display: flex;
+  overflow: none;
 }
-.slider{
+/*.slider, .slider-left, .slider-right{
   background-color: white;
   background-image: url("../images/1.jpg");
   background-size: cover;
-  width: 800px;
-  height: 450px;
-  position: fixed;
-  left: calc(50% - 400px);
-  top: 150px;
+  min-width: 800px;
+  min-height: 450px;
   border-radius: 10px;
   box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+.slider-left{
+  width: 700px;
+  height: 400px;
+}
+.slider-right{
+ width: 700px;
+ height: 400px;
 }
 .slider .options{
   margin-left: 25px;
@@ -95,4 +105,4 @@ nav ul li.active{
   margin-left: 10px;
   width: 600px;
   height: 2px;
-}
+}*/

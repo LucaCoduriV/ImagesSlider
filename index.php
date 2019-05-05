@@ -2,6 +2,7 @@
 <html lang="fr" dir="ltr">
   <head>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="slider.css">
     <meta charset="utf-8">
     <title></title>
   </head>
@@ -15,18 +16,17 @@
         </ul>
       </nav>
     </header>
-    <div class="container">
+    <?php
+    include("C:/wamp64/www/carouselV2/slider.php")
+    ?>
+
+
+  <!--  <div class="container">
+      <div class="slider-left"></div>
       <div class="slider">
-        <div class="options">
-          <span id="dot-top" class="dot"></span>
-          <span id="dot-middle" class="dot"></span>
-          <span id="dot-bottom" class="dot"></span>
-        </div>
-        <div class="share"></div>
-        <div class="like"></div>
-        <div class="username">@username</div>
-        <span class="line"></span>
+
       </div>
+      <div class="slider-right"></div>
       <ul class="dot-list">
         <li></li>
         <li></li>
@@ -34,6 +34,7 @@
         <li></li>
         <li></li>
       </ul>
-    </div>
+    </div>-->
+    <script type="text/javascript" src="slider.js"></script>
   </body>
 </html>
